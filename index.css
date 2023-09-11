@@ -1,0 +1,260 @@
+body {
+margin: 40px;
+background-color: #1F0F42;
+font-family: Outfit;
+}
+/*Navbar Section*/
+.navbar-brand{
+    font-weight: 900;
+}
+.navbar-nav{
+    text-align: center;
+}
+.log{
+    border-radius: 50px;
+    background: linear-gradient(90deg, #FDDC2D 0%, #FB3AB9 100%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+/*Appoint Now Section (design for mobile)*/
+#content{
+    margin-top: 55px;
+}
+.cIntro{
+    margin-top:10%;
+}
+.cTitle{
+    font-size: 40px;
+    font-weight: 900;
+    color: white;
+}
+.pointBtn{
+    padding: 8px;
+    background-color: #FDDC2D;
+    border-radius: 25px;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
+.Picture1{
+    width: 110%;
+    height: 100%;
+}
+/*Faster Transaction*/
+.cFastTrans{
+    margin-top: 20%;
+}
+.Picture2{
+    width: 100%;
+    height: 100%;
+}
+.cFT_Title{
+    font-weight: 600;
+    color: white;
+}
+.cFT_desc{
+    color: #B390FE;
+    font-weight: 500;
+    font-size: 16px;
+}
+/*Easy Way to Appoint*/
+.cEWA{
+    margin-top: 20%;
+}
+.Picture3{
+    width: 100%;
+    height: 100%;
+}
+.cEWA_Title{
+    font-weight: 600;
+    color: white;
+}
+.cEWA_desc{
+    color: #B390FE;
+    font-weight: 500;
+    font-size: 16px;
+}
+/*Neat Schedule*/
+.cNSched{
+    margin-top: 20%;
+}
+.Picture4{
+    width: 100%;
+    height: 100%;
+}
+.cNSched_Title{
+    font-weight: 600;
+    color: white;
+}
+.cNSched_desc{
+    color: #B390FE;
+    font-weight: 500;
+    font-size: 16px;
+}
+/*See the Developers*/
+.card{
+    padding: 10px;
+    width: 100%;
+    height: 10rem;
+    border-radius: 50px;
+    background: linear-gradient(270deg, #FDDC2D 0%, rgba(158, 48, 245, 0.98) 100%);
+}
+.Dvlp_lbl{
+    color: white;
+}
+.clk_Dev{
+    text-decoration: none;
+    background-color: black;
+    border-radius: 15px;
+    color: white;
+    padding: 8px;
+}
+/*About Us*/
+#About{
+    margin-top: 5%;
+}
+.about_us{
+    font-family: Outfit;
+    color: white;
+}
+
+
+@media (min-width: 576px) {
+    .cIntro{
+        margin-top:20%;
+    }
+    .cTitle{
+        font-size: 50px;
+    }
+    .cEWA{
+        margin-top: 50%;
+    }
+    .cNSched{
+        margin-top: 50%;
+    }
+    .card-body{
+        position: relative;
+        margin-top: 10%;
+    }
+    .card{
+        height: 12rem;
+    }
+    
+    
+}
+
+@media (min-width: 768px) {
+    .cTitle{
+        font-size: 52px;
+    }
+    .cFastTrans{
+        margin-top: 30%;
+    }
+    .cFT_desc{
+        font-size: 18px;
+    }
+    .cEWA_desc{
+        font-size: 18px;
+    }
+    .cNSched_desc{
+        font-size: 18px;
+    }
+    .cFastTrans{
+        padding-left: 50px;
+    }
+    .cNSched{
+        padding-left: 50px;
+    }
+    .card-body{
+        position: relative;
+        margin-top: 5%;
+    }
+}
+
+@media (min-width: 992px) {
+    .cIntro{
+        margin-top:25%;
+    }
+    .cTitle{
+        font-size: 70px;
+    }
+    .cFT_desc{
+        font-size: 22px;
+    }
+    .cFT_Title{
+        font-size: 50px;
+    }
+    .cEWA_desc{
+        font-size: 22px;
+    }
+    .cEWA_Title{
+        font-size: 50px;
+    }
+    .cNSched_desc{
+        font-size: 22px;
+    }
+    .cNSched_Title{
+        font-size: 50px;
+    }
+    .cFastTrans{
+        padding-left: 50px;
+    }
+    .cNSched{
+        padding-left: 50px;
+    }
+    .card{
+        height: 20rem;
+    }
+    .Dvlp_lbl{
+        font-size: 70px;
+    }
+    .clk_Dev{
+        font-size: 20px;
+    }
+    
+}
+
+@media (min-width: 1200px) {
+    .cTitle{
+        font-size: 80px;
+    }
+    .pointBtn{
+        padding: 10px;
+        font-size: 20px;
+    }
+    .cFT_desc{
+        font-size: 30px;
+    }
+    .cFT_Title{
+        font-size: 60px;
+    }
+    .cEWA_desc{
+        font-size: 30px;
+    }
+    .cEWA_Title{
+        font-size: 60px;
+    }
+    .cNSched_desc{
+        font-size: 30px;
+    }
+    .cNSched_Title{
+        font-size: 60px;
+    }
+    .about_us{
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .pointBtn{
+        padding: 10px;
+        font-size: 25px;
+    }
+    .card-body{
+        position: relative;
+        margin-top: 4%;
+    }
+    .clk_Dev{
+        padding: 10px;
+        font-size: 25px;
+    }
+}
