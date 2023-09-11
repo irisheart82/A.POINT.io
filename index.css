@@ -101,6 +101,9 @@ font-family: Outfit;
 .Dvlp_lbl{
     color: white;
 }
+.card-body{
+    margin-top: 5%;
+}
 .clk_Dev{
     text-decoration: none;
     background-color: black;
