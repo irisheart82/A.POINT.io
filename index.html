@@ -216,10 +216,12 @@
     var nav = document.querySelector('nav');
 
     window.addEventListener('scroll', function () {
-        if (window.pageYOffset > 80) {
-        nav.classList.add('bg-dark', 'shadow');
+        if (window.pageYOffset > 100) {
+        nav.classList.add('shadow');
+        nav.style.backgroundColor = '#1F0F42'
         } else {
-        nav.classList.remove('bg-dark', 'shadow');
+        nav.classList.remove('shadow');
+        nav.style.backgroundColor = '#1F0F42'
         }
     });
     </script>
